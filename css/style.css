@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Metal+Mania&family=Tenali+Ramakrishna&display=swap');
+
+h4 {
+  font-family: 'Lexend Tera';
+  font-weight: 100;
+}
+
+button {
+  font-family: 'Metal Mania';
+  font-weight: 100;
+}
+
+p {
+  font-family: 'Tenali Ramakrishna';
+  font-weight: 100;
+}
+
+/* Header */
+header, footer {
+  background-color: #00abff;
+}
+
+
+nav {
+  background-color: rgb(13, 0, 254);
+}
+
+.navbar-brand {
+ font-size: 18px;
+ font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+ font-size: 15px;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+nav li {
+ padding: 0, 18px;
+}
+
+nav li.active, nav li.active:before {
+ background-color: rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+}
+
+.carousel a:hover {
+ background: rgba(255, 255, 255, 0.2);
+}
+
+h4 {
+color: rgb(42, 1, 180)
+}
